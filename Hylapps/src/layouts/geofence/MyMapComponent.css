@@ -1,0 +1,18 @@
+.checkbox-container {
+  display: flex;
+  justify-content: flex-end; /* Align checkbox to the right */
+  margin: 10px;
+}
+
+.checkbox-label {
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkbox-label input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
