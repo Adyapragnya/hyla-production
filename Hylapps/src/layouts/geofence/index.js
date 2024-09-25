@@ -70,7 +70,7 @@ function Geofence() {
       <ArgonBox py={3}>
         <Grid container spacing={3}>
           <Grid item xs={12}>
-            <Card sx={{ height: "600px" }}>
+            <Card sx={{ height: "100%" }}>
               <CardContent>
                 <MyMapComponent
                   zoom={zoom}
